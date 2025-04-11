@@ -1,0 +1,20 @@
+/*------------------------------------------*/
+/* 14. Contact Form */
+/*------------------------------------------*/
+
+.contact-form-section {
+    padding: 75px 0 75px;
+}
+
+.contact-form-section .section-title {
+    text-align: left;
+}
+
+.comment-form.contact-form input {
+	margin-bottom: 25px;
+}
+
+.comment-form.contact-form textarea {
+	height: 150px;
+	margin-bottom: 42px;
+}

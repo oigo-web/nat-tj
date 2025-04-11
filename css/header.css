@@ -1,0 +1,145 @@
+/*------------------------------------------*/
+/* 2. Header Section */
+/*------------------------------------------*/
+
+.header {
+    background-color: #f4ecec;
+    color: #f3f3f8;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mainmenu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-section.header-normal {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.logo {
+    padding-top: 36px;
+	padding-bottom: 37px;
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu .mainmenu {
+    display: inline-block;
+}
+
+.mainmenu ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+}
+
+.mainmenu ul li:last-child {
+    margin-right: 0;
+}
+
+.mainmenu ul li .dropdown {
+    position: absolute;
+	width: 180px;
+	background: #ffffff;
+	z-index: 99;
+	left: 0;
+	top: 100%;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-box-shadow: 4px 13px 30px rgba(0, 0, 0, 0.15);
+	box-shadow: 4px 13px 30px rgba(0, 0, 0, 0.15);
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.nav-menu .mainmenu ul li .dropdown li {
+	display: block;
+	margin-right: 0;
+}
+
+.nav-menu .mainmenu ul li .dropdown li a {
+	padding: 8px 10px;
+	display: block;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	text-transform: capitalize;
+}
+
+.nav-menu .mainmenu ul li .dropdown li a:hover {
+	color: #f44949;
+}
+
+.nav-menu .mainmenu ul li .dropdown li a:after {
+	display: none;
+}
+
+.nav-menu .mainmenu ul li.active a:after {
+	opacity: 1;
+}
+
+.nav-menu .mainmenu ul li:hover>a:after {
+	opacity: 1;
+}
+
+.nav-menu .mainmenu ul li:hover .dropdown {
+	opacity: 1;
+	visibility: visible;
+	top: 100%;
+}
+
+.nav-menu .mainmenu ul li a {
+	font-size: 10px;
+	color: #171822;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 4px 0;
+	position: relative;
+	display: inline-block;
+}
+
+.nav-menu .mainmenu ul li a:after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 100%;
+	background: #F44949;
+	content: "";
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.nav-menu .primary-btn.top-btn {
+	margin: 27px 0;
+}
+
+.slicknav_menu {
+	display: none;
+}

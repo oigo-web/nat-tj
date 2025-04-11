@@ -1,0 +1,129 @@
+/*---------------------
+  Blog Details Section
+-----------------------*/
+
+.blog-details-section {
+	padding-top: 70px;
+}
+
+.bd-text .bd-title {
+	margin-bottom: 28px;
+}
+
+.bd-text .bd-quote {
+	position: relative;
+	padding-left: 32px;
+	margin-bottom: 36px;
+}
+
+.bd-text .bd-quote:before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 4px;
+	height: 100%;
+	background: #f44949;
+	content: "";
+}
+
+.bd-text .bd-quote p {
+	font-size: 18px;
+	color: #171822;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+.bd-text .bd-quote span {
+	font-size: 14px;
+	color: #f44949;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+.bd-text .bd-quote img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.bd-text .bd-more-text {
+	margin-bottom: 32px;
+}
+
+.bd-text .bd-more-text.second-text {
+	margin-bottom: 56px;
+}
+
+.bd-text .bd-more-text h4 {
+	color: #171822;
+	font-weight: 600;
+	margin-bottom: 22px;
+}
+
+.bd-text .bd-more-pic {
+	margin-bottom: 36px;
+}
+
+.bd-text .bd-more-pic img {
+	min-width: 100%;
+	border-radius: 2px;
+}
+
+.bd-text .bd-tag-share {
+	overflow: hidden;
+	border-top: 1px solid #e5e5e5;
+	padding-top: 20px;
+}
+
+.bd-text .bd-tag-share .tag {
+	float: left;
+	margin-top: 7px;
+}
+
+.bd-text .bd-tag-share .tag a {
+	display: inline-block;
+	font-size: 14px;
+	background: #ebebeb;
+	color: #6a6b7c;
+	padding: 2px 17px 4px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	border-radius: 2px;
+	margin-right: 6px;
+	margin-bottom: 5px;
+}
+
+.bd-text .bd-tag-share .tag a:hover {
+	background: #f44949;
+	color: #ffffff;
+}
+
+.bd-text .bd-tag-share .s-share {
+	float: right;
+}
+
+.bd-text .bd-tag-share .s-share span {
+	display: inline-block;
+	color: #171822;
+	font-size: 16px;
+	margin-right: 12px;
+}
+
+.bd-text .bd-tag-share .s-share a {
+	display: inline-block;
+	font-size: 16px;
+	color: #171822;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #ebebeb;
+	margin-left: 11px;
+	border-radius: 50%;
+}
+
+.bd-text .bd-tag-share .s-share a:hover {
+	color: #ffffff;
+}

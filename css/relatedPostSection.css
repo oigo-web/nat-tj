@@ -1,0 +1,32 @@
+/*---------------------
+  Related Post Section
+-----------------------*/
+
+.related-post-section {
+	background: #f4f6f8;
+	padding-bottom: 70px;
+	padding-top: 90px;
+}
+
+.related-post-section .blog-item {
+	height: 350px;
+}
+
+.related-post-section .blog-item .bi-tag {
+	left: 30px;
+	top: 30px;
+}
+
+.related-post-section .blog-item .bi-text {
+	padding: 0 30px;
+	bottom: 28px;
+}
+
+.related-post-section .blog-item .bi-text h5 {
+	margin-bottom: 10px;
+}
+
+.related-post-section .blog-item .bi-text h5 a {
+	font-size: 20px;
+	line-height: 30px;
+}

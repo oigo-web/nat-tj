@@ -1,0 +1,58 @@
+/*------------------------------------------*/
+/* 11. About */
+/*------------------------------------------*/
+
+.about-section {
+    padding: 75px 0 75px;
+    padding-bottom: 90px;
+}
+
+.about-section .section-title {
+	text-align: left;
+}
+
+.about-section .section-title h2 {
+	margin-bottom: 20px;
+}
+
+.about-section .section-title p {
+	font-size: 16px;
+}
+
+.about-section .section-title p.f-para {
+	margin-bottom: 20px;
+}
+
+.about-pic {
+	-webkit-box-shadow: 0px 0px 30px rgba(11, 12, 48, 0.15);
+	box-shadow: 0px 0px 30px rgba(11, 12, 48, 0.15);
+}
+
+.about-pic img {
+	min-width: 100%;
+}
+
+.about-text {
+	padding-top: 20px;
+}
+
+.about-text h3 {
+	color: #171822;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+
+.about-text p {
+	margin-bottom: 20px;
+}
+
+.about-text ul li {
+	font-size: 16px;
+	color: #6a6b7c;
+	line-height: 30px;
+	list-style: none;
+}
+
+.about-text ul li span {
+	color: #f44949;
+}

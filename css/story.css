@@ -1,0 +1,46 @@
+/*------------------------------------------*/
+/* 12. Story */
+/*------------------------------------------*/
+
+.story-section {
+	padding-bottom: 30px;
+}
+
+.story-section .section-title {
+	text-align: left;
+}
+
+.story-section .section-title h2 {
+	margin-bottom: 0;
+}
+
+.story-left {
+	padding-right: 40px;
+}
+
+.story-right {
+	padding-left: 40px;
+}
+
+.story-item {
+	margin-bottom: 28px;
+}
+
+.story-item h2 {
+	color: #f44949;
+	font-weight: 600;
+	float: left;
+	margin-right: 30px;
+	line-height: 42px;
+}
+
+.story-item .si-text {
+	overflow: hidden;
+}
+
+.story-item .si-text h4 {
+	color: #171822;
+	font-weight: 600;
+	line-height: 36px;
+	margin-bottom: 14px;
+}

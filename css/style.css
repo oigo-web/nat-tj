@@ -1,0 +1,672 @@
+/*******************************
+Web name: National Alliance of Tajikistan
+Author:Asliddin
+Author URI: http://oigooi.org
+Version: 1.0
+Created: Asliddin
+ *******************************/
+/*------------------------------------------*/
+ /* CSS Document */
+/* Global Styles
+
+1.  Template default CSS
+	1.1	Variables
+	1.2	Mixins
+	1.3	Flexbox
+	1.4	Reset
+2.  Helper Css
+3.  Header Section
+4.  Hero Section
+5.  Home About Section
+6.  Team Member Section
+7.  Pricing Section
+8.  Latest Blog Section
+9.  Contact
+10.  Footer Style */
+/*------------------------------------------*/
+
+/*------------------------------------------*/
+/* 1. Template default CSS */
+/*------------------------------------------*/
+
+@import "about.css";
+@import "blog.css";
+@import "blogDetalSection.css";
+@import "blogHero.css";
+@import "bootstrap.min.css";
+@import "Breadcrumb.css";
+@import "commintS.css";
+@import "contactForm";
+@import "contactTopContact.css";
+@import "conter-s.css";
+@import "font-awesome.min.css";
+@import "footer.css";
+@import "header.css";
+@import "hero-s.css";
+@import "homeAbout.css";
+@import "HomeContactSection.css";
+@import "magnific-popup.css";
+@import "newsLatter.css";
+@import "oigooi.css";
+@import "owl.carousel.min.css";
+@import "relatedPostSection.css";
+@import "slicknav.min.css";
+@import "speaker.css";
+@import "story.css";
+@import "teamMember.css";
+@import "testimonial-s.css";
+@import "oi-expo.css";
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    color: rgb(6, 6, 6);
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+/*------------------------------------------*/
+/* 1.1 Variables */
+/*------------------------------------------*/
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 1rem;
+}
+h3 {
+    font-size: 1.75rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+h5 {
+    font-size: 1.25rem;
+}
+h6 {
+    font-size: 1rem;
+}
+p {
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    color:color-mix(in hsl decreasing hue, color percentage, color percentage);
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 0 1.5rem;
+}
+
+/*------------------------------------------*/
+/* ol and ul */
+/*------------------------------------------*/
+ol,
+h1 ul {
+    font-size: var(--heading-font-size);
+    margin-bottom: 1.5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input:focus,
+select:focus,
+button:focus, 
+text {
+    outline: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*------------------------------------------*/
+/* Helper CSS */
+/*------------------------------------------*/
+
+.section {
+    text-align: center;
+    margin-bottom: 50px; 
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-title p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/*------------------------------------------*/
+/* 2. Header Section */
+/*------------------------------------------*/
+
+/*------------------------------------------*/
+/* 3. Hero Section */
+/*------------------------------------------*/
+
+/*------------------------------------------*/
+/* 4. Latest Blog */
+/*------------------------------------------*/
+
+/* -----------------------------
+5. Conter Section
+--------------------------------- */
+
+/*------------------------------------------*/
+/* 5. Home About Section */
+/*------------------------------------------*/
+
+/*------------------------------------------*/
+/* 6. Team Member Section */
+/*------------------------------------------*/
+
+/*------------------------------------------*/
+/* 7. Schedule Section */
+/*------------------------------------------*/
+
+/*---------------------
+  Pricing Section
+-----------------------*/
+
+/*---------------------
+  Newslatter Section
+-----------------------*/
+
+/*------------------------------------------*/
+/* 8. Home Contact Section */
+/*------------------------------------------*/
+
+/*------------------------------------------*/
+/* 9. Footer Section */
+/*------------------------------------------*/
+
+/*----------------------Other Pages Styles---------------------*/
+
+/*------------------------------------------*/
+/* 10. Breadcrumb */
+/*------------------------------------------*/
+
+/*------------------------------------------*/
+/* 11. About */
+/*------------------------------------------*/
+
+/*------------------------------------------*/
+/* 12. Story */
+/*------------------------------------------*/
+
+/*---------------------
+  Testimonial Section
+-----------------------*/
+
+/*------------------------------------------*/
+/* 13. Speaker */
+/*------------------------------------------*/
+
+/*------------------------
+  Schedule Table Section
+-------------------------*/
+
+/*---------------------
+  Blog
+-----------------------*/
+
+/*---------------------
+  Blog Hero Section
+-----------------------*/
+
+/*---------------------
+  Blog Details Section
+-----------------------*/
+
+/*---------------------
+  Comment Section
+-----------------------*/
+
+/*---------------------
+  Related Post Section
+-----------------------*/
+
+/*---------------------
+  Contact Top Content
+-----------------------*/
+
+/*------------------------------------------*/
+/* 14. Contact Form */
+/*------------------------------------------*/
+
+/*--------------------Responcive Media Styles----------------------*/
+
+@media only screen and (max-width: 1200px) {
+    .ha-pic {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+	.container {
+		max-width: 1400px;
+	}
+}
+
+/*--------------------Medium Device 1200px----------------------*/
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.nav-menu .mainmenu ul li {
+		margin-right: 25px;
+	}
+
+	.hero-section .hero-text {
+		padding-top: 110px;
+	}
+
+	.counter-section .cd-timer .cd-item {
+		margin-left: 25px;
+	}
+
+	.ha-text {
+		padding-top: 0;
+	}
+
+	.member-item {
+		width: 25%;
+		height: 310px;
+	}
+
+	.testimonial-slider.owl-carousel .owl-nav button {
+		left: -10px;
+	}
+
+	.testimonial-slider.owl-carousel .owl-nav button.owl-next {
+		right: -10px;
+	}
+
+	.newslatter-inner .ni-form {
+		width: 350px;
+	}
+
+	.cc-text {
+		padding-top: 65px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.schedule-tab .st-content .sc-pic {
+		text-align: left;
+		padding: 30px 0 0;
+	}
+
+	.schedule-tab .st-content .sc-text {
+		padding: 30px 0 0;
+	}
+
+	.schedule-tab .st-content .sc-widget {
+		padding: 30px 0;
+	}
+
+	.schedule-tab .st-content {
+		padding-left: 30px;
+	}
+
+	.price-item.top-rated {
+		margin-top: 0;
+	}
+
+	.latest-item.large-item {
+		height: 550px;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.latest-item {
+		margin-left: 0;
+	}
+
+	.cs-map {
+		margin-top: 20px;
+	}
+
+	.about-text {
+		margin-top: 30px;
+	}
+
+	.story-right {
+		padding-left: 0;
+	}
+
+	.newslatter-inner .ni-text {
+		float: none;
+	}
+
+	.newslatter-inner .ni-form {
+		float: none;
+		margin-top: 30px;
+	}
+
+	.testimonial-slider.owl-carousel .owl-nav button {
+		left: -10px;
+	}
+
+	.testimonial-slider.owl-carousel .owl-nav button.owl-next {
+		right: -10px;
+	}
+
+	.counter-section .counter-text {
+		margin-bottom: 30px;
+	}
+
+	.counter-section .cd-timer {
+		text-align: left;
+	}
+
+	.speaker-item .si-text .si-title {
+		padding-top: 30px;
+	}
+
+	.bd-text .bd-more-pic img {
+		margin-bottom: 10px;
+	}
+
+	.cc-text {
+		padding-left: 40px;
+	}
+
+	.ha-pic {
+		margin-right: 0;
+	}
+
+	.hero-section .hero-text {
+		margin-bottom: 20px;
+	}
+}
+
+/* Tablet Device: 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.nav-menu .primary-btn.top-btn {
+		display: none;
+	}
+
+	.nav-menu .mainmenu ul li {
+		margin-right: 20px;
+	}
+
+	.bh-text h2 {
+		font-size: 45px;
+	}
+
+	.nav-menu .mainmenu ul li:last-child {
+		margin-right: 0;
+	}
+
+	.hero-section .hero-text {
+		margin-bottom: 20px;
+	}
+
+	.member-item {
+		width: 33.33%;
+	}
+}
+
+/* Large Mobile: 480px */
+
+@media only screen and (max-width: 767px) {
+	.counter-section .cd-timer .cd-item {
+		margin-bottom: 10px;
+	}
+
+	.member-item {
+		width: 50%;
+	}
+
+	.newslatter-inner {
+		padding: 60px 50px 48px;
+	}
+
+	.newslatter-inner .ni-form {
+		width: 350px;
+	}
+
+	.footer-text ul li {
+		margin-right: 15px;
+	}
+
+	.schedule-table-tab .schedule-table-content {
+		overflow-x: auto;
+	}
+
+	.schedule-table-tab .nav-tabs .nav-item {
+		width: 33.33%;
+	}
+
+	.bd-text .bd-tag-share .tag {
+		float: none;
+		margin-top: 0;
+		margin-bottom: 25px;
+	}
+
+	.bd-text .bd-tag-share .s-share {
+		float: none;
+	}
+
+	.slicknav_menu {
+		display: block;
+		background: transparent;
+		padding: 0;
+	}
+
+	.nav-menu .mainmenu {
+		display: none;
+	}
+
+	.nav-menu .primary-btn.top-btn {
+		display: none;
+	}
+
+	.slicknav_btn {
+		margin: 34px 0;
+		border-radius: 0;
+	}
+
+	.slicknav_nav {
+		background: #222;
+	}
+
+	.slicknav_nav .slicknav_row,
+	.slicknav_nav a {
+		margin: 0;
+		padding: 10px 20px;
+		-webkit-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.slicknav_nav ul {
+		margin: 0;
+	}
+
+	.slicknav_nav a:hover {
+		border-radius: 0;
+		background: #f44949;
+		color: #ffffff;
+	}
+
+	.slicknav_nav .slicknav_row:hover {
+		border-radius: 0;
+		background: #f44949;
+		color: #ffffff;
+	}
+
+	.member-item .mi-text {
+		left: -1000px;
+	}
+
+	.bh-text h2,
+	.hero-section .hero-text h2 {
+		font-size: 40px;
+		line-height: normal;
+	}
+
+	.counter-section .cd-timer .cd-item {
+		margin-right: 10px;
+		margin-left: 0;
+	}
+
+	.counter-section .cd-timer .cd-item:last-child {
+		margin-right: 0;
+	}
+
+	.testimonial-slider.owl-carousel {
+		text-align: center;
+	}
+
+	.testimonial-slider.owl-carousel .owl-nav button {
+		margin-top: 10px;
+		position: relative;
+	}
+}
+
+/*------------------------------------------*/
+/* 15. Mobile: 320px */
+/*------------------------------------------*/
+
+@media only screen and (max-width: 479px) {
+
+	.bh-text h2,
+	.hero-section .hero-text h2 {
+		font-size: 36px;
+		line-height: normal;
+	}
+
+	.newslatter-inner {
+		padding: 60px 20px 48px;
+	}
+
+	.counter-section .cd-timer .cd-item {
+		margin-right: 10px;
+		margin-left: 0;
+	}
+
+	.schedule-tab .nav-tabs .nav-item {
+		width: 33.33%;
+	}
+
+	.member-item {
+		width: 100%;
+	}
+
+	.newslatter-inner .ni-form {
+		width: 100%;
+	}
+
+	.newslatter-inner .ni-form button {
+		width: 95px;
+	}
+
+	.newslatter-inner .ni-form input {
+		padding-right: 100px;
+	}
+
+	.footer-text ul li {
+		margin-bottom: 10px;
+	}
+
+	.schedule-table-tab .nav-tabs .nav-item {
+		width: 50%;
+	}
+
+	.cc-text {
+		padding-left: 30px;
+		padding-top: 35px;
+	}
+
+	.story-item h2 {
+		float: none;
+		margin-bottom: 10px;
+	}
+
+	.bd-text .bd-tag-share .s-share a {
+		font-size: 14px;
+		height: 35px;
+		width: 35px;
+		line-height: 35px;
+		margin-left: 5px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
